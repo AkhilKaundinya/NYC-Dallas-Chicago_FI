@@ -1,0 +1,2747 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>54936</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: C:\Users\AkhilMetlakunta\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="126" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Lat Long Location"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Points - 1" />
+            <Field field="Violation Detail - 1" />
+            <Field field="Violation Memo - 1" />
+            <Field field="Violation Points - 2" />
+            <Field field="Violation Detail - 2" />
+            <Field field="Violation Memo - 2" />
+            <Field field="Violation Points - 3" />
+            <Field field="Violation Detail - 3" />
+            <Field field="Violation Memo - 3" />
+            <Field field="Violation Points - 4" />
+            <Field field="Violation Detail - 4" />
+            <Field field="Violation Memo - 4" />
+            <Field field="Violation Points - 5" />
+            <Field field="Violation Detail - 5" />
+            <Field field="Violation Memo - 5" />
+            <Field field="Violation Points - 6" />
+            <Field field="Violation Detail - 6" />
+            <Field field="Violation Memo - 6" />
+            <Field field="Violation Points - 7" />
+            <Field field="Violation Detail - 7" />
+            <Field field="Violation Memo - 7" />
+            <Field field="Violation Points - 8" />
+            <Field field="Violation Detail - 8" />
+            <Field field="Violation Memo - 8" />
+            <Field field="Violation Points - 9" />
+            <Field field="Violation Detail - 9" />
+            <Field field="Violation Memo - 9" />
+            <Field field="Violation Points - 10" />
+            <Field field="Violation Detail - 10" />
+            <Field field="Violation Memo - 10" />
+            <Field field="Violation Points - 11" />
+            <Field field="Violation Detail - 11" />
+            <Field field="Violation Memo - 11" />
+            <Field field="Violation Points - 12" />
+            <Field field="Violation Detail - 12" />
+            <Field field="Violation Memo - 12" />
+            <Field field="Violation Points - 13" />
+            <Field field="Violation Detail - 13" />
+            <Field field="Violation Memo - 13" />
+            <Field field="Violation Points - 14" />
+            <Field field="Violation Detail - 14" />
+            <Field field="Violation Memo - 14" />
+            <Field field="Violation Points - 15" />
+            <Field field="Violation Detail - 15" />
+            <Field field="Violation Memo - 15" />
+            <Field field="Violation Points - 16" />
+            <Field field="Violation Detail - 16" />
+            <Field field="Violation Memo - 16" />
+            <Field field="Violation Points - 17" />
+            <Field field="Violation Detail - 17" />
+            <Field field="Violation Memo - 17" />
+            <Field field="Violation Points - 18" />
+            <Field field="Violation Detail - 18" />
+            <Field field="Violation Memo - 18" />
+            <Field field="Violation Points - 19" />
+            <Field field="Violation Detail - 19" />
+            <Field field="Violation Memo - 19" />
+            <Field field="Violation Points - 20" />
+            <Field field="Violation Detail - 20" />
+            <Field field="Violation  Memo - 20" />
+            <Field field="Violation Points - 21" />
+            <Field field="Violation Detail - 21" />
+            <Field field="Violation Memo - 21" />
+            <Field field="Violation Points - 22" />
+            <Field field="Violation Detail - 22" />
+            <Field field="Violation Memo - 22" />
+            <Field field="Violation Points - 23" />
+            <Field field="Violation Detail - 23" />
+            <Field field="Violation Memo - 23" />
+            <Field field="Violation Points - 24" />
+            <Field field="Violation Detail - 24" />
+            <Field field="Violation Memo - 24" />
+            <Field field="Violation Points - 25" />
+            <Field field="Violation Detail - 25" />
+            <Field field="Violation Memo - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="False" />
+            <Field field="Violation Detail - 1" selected="False" />
+            <Field field="Violation Memo - 1" selected="False" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="False" />
+            <Field field="Violation Detail - 2" selected="False" />
+            <Field field="Violation Memo - 2" selected="False" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="False" />
+            <Field field="Violation Detail - 3" selected="False" />
+            <Field field="Violation Memo - 3" selected="False" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="False" />
+            <Field field="Violation Detail - 4" selected="False" />
+            <Field field="Violation Memo - 4" selected="False" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="False" />
+            <Field field="Violation Detail - 5" selected="False" />
+            <Field field="Violation Memo - 5" selected="False" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="False" />
+            <Field field="Violation Detail - 6" selected="False" />
+            <Field field="Violation Memo - 6" selected="False" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="False" />
+            <Field field="Violation Detail - 7" selected="False" />
+            <Field field="Violation Memo - 7" selected="False" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="False" />
+            <Field field="Violation Detail - 8" selected="False" />
+            <Field field="Violation Memo - 8" selected="False" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="False" />
+            <Field field="Violation Detail - 9" selected="False" />
+            <Field field="Violation Memo - 9" selected="False" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="False" />
+            <Field field="Violation Detail - 10" selected="False" />
+            <Field field="Violation Memo - 10" selected="False" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="False" />
+            <Field field="Violation Detail - 11" selected="False" />
+            <Field field="Violation Memo - 11" selected="False" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="False" />
+            <Field field="Violation Detail - 12" selected="False" />
+            <Field field="Violation Memo - 12" selected="False" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="False" />
+            <Field field="Violation Detail - 13" selected="False" />
+            <Field field="Violation Memo - 13" selected="False" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="False" />
+            <Field field="Violation Detail - 14" selected="False" />
+            <Field field="Violation Memo - 14" selected="False" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="False" />
+            <Field field="Violation Detail - 15" selected="False" />
+            <Field field="Violation Memo - 15" selected="False" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="False" />
+            <Field field="Violation Detail - 16" selected="False" />
+            <Field field="Violation Memo - 16" selected="False" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="False" />
+            <Field field="Violation Detail - 17" selected="False" />
+            <Field field="Violation Memo - 17" selected="False" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="False" />
+            <Field field="Violation Detail - 18" selected="False" />
+            <Field field="Violation Memo - 18" selected="False" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="False" />
+            <Field field="Violation Detail - 19" selected="False" />
+            <Field field="Violation Memo - 19" selected="False" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="False" />
+            <Field field="Violation Detail - 20" selected="False" />
+            <Field field="Violation  Memo - 20" selected="False" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="False" />
+            <Field field="Violation Detail - 21" selected="False" />
+            <Field field="Violation Memo - 21" selected="False" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="False" />
+            <Field field="Violation Detail - 22" selected="False" />
+            <Field field="Violation Memo - 22" selected="False" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="False" />
+            <Field field="Violation Detail - 23" selected="False" />
+            <Field field="Violation Memo - 23" selected="False" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="False" />
+            <Field field="Violation Detail - 24" selected="False" />
+            <Field field="Violation Memo - 24" selected="False" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="False" />
+            <Field field="Violation Detail - 25" selected="False" />
+            <Field field="Violation Memo - 25" selected="False" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Description - 1" selected="True" />
+            <SelectField field="Violation Points - 1" selected="True" />
+            <SelectField field="Violation Detail - 1" selected="True" />
+            <SelectField field="Violation Memo - 1" selected="True" />
+            <SelectField field="Violation Description - 2" selected="True" />
+            <SelectField field="Violation Points - 2" selected="True" />
+            <SelectField field="Violation Detail - 2" selected="True" />
+            <SelectField field="Violation Memo - 2" selected="True" />
+            <SelectField field="Violation Description - 3" selected="True" />
+            <SelectField field="Violation Points - 3" selected="True" />
+            <SelectField field="Violation Detail - 3" selected="True" />
+            <SelectField field="Violation Memo - 3" selected="True" />
+            <SelectField field="Violation Description - 4" selected="True" />
+            <SelectField field="Violation Points - 4" selected="True" />
+            <SelectField field="Violation Detail - 4" selected="True" />
+            <SelectField field="Violation Memo - 4" selected="True" />
+            <SelectField field="Violation Description - 5" selected="True" />
+            <SelectField field="Violation Points - 5" selected="True" />
+            <SelectField field="Violation Detail - 5" selected="True" />
+            <SelectField field="Violation Memo - 5" selected="True" />
+            <SelectField field="Violation Description - 6" selected="True" />
+            <SelectField field="Violation Points - 6" selected="True" />
+            <SelectField field="Violation Detail - 6" selected="True" />
+            <SelectField field="Violation Memo - 6" selected="True" />
+            <SelectField field="Violation Description - 7" selected="True" />
+            <SelectField field="Violation Points - 7" selected="True" />
+            <SelectField field="Violation Detail - 7" selected="True" />
+            <SelectField field="Violation Memo - 7" selected="True" />
+            <SelectField field="Violation Description - 8" selected="True" />
+            <SelectField field="Violation Points - 8" selected="True" />
+            <SelectField field="Violation Detail - 8" selected="True" />
+            <SelectField field="Violation Memo - 8" selected="True" />
+            <SelectField field="Violation Description - 9" selected="True" />
+            <SelectField field="Violation Points - 9" selected="True" />
+            <SelectField field="Violation Detail - 9" selected="True" />
+            <SelectField field="Violation Memo - 9" selected="True" />
+            <SelectField field="Violation Description - 10" selected="True" />
+            <SelectField field="Violation Points - 10" selected="True" />
+            <SelectField field="Violation Detail - 10" selected="True" />
+            <SelectField field="Violation Memo - 10" selected="True" />
+            <SelectField field="Violation Description - 11" selected="True" />
+            <SelectField field="Violation Points - 11" selected="True" />
+            <SelectField field="Violation Detail - 11" selected="True" />
+            <SelectField field="Violation Memo - 11" selected="True" />
+            <SelectField field="Violation Description - 12" selected="True" />
+            <SelectField field="Violation Points - 12" selected="True" />
+            <SelectField field="Violation Detail - 12" selected="True" />
+            <SelectField field="Violation Memo - 12" selected="True" />
+            <SelectField field="Violation Description - 13" selected="True" />
+            <SelectField field="Violation Points - 13" selected="True" />
+            <SelectField field="Violation Detail - 13" selected="True" />
+            <SelectField field="Violation Memo - 13" selected="True" />
+            <SelectField field="Violation Description - 14" selected="True" />
+            <SelectField field="Violation Points - 14" selected="True" />
+            <SelectField field="Violation Detail - 14" selected="True" />
+            <SelectField field="Violation Memo - 14" selected="True" />
+            <SelectField field="Violation Description - 15" selected="True" />
+            <SelectField field="Violation Points - 15" selected="True" />
+            <SelectField field="Violation Detail - 15" selected="True" />
+            <SelectField field="Violation Memo - 15" selected="True" />
+            <SelectField field="Violation Description - 16" selected="True" />
+            <SelectField field="Violation Points - 16" selected="True" />
+            <SelectField field="Violation Detail - 16" selected="True" />
+            <SelectField field="Violation Memo - 16" selected="True" />
+            <SelectField field="Violation Description - 17" selected="True" />
+            <SelectField field="Violation Points - 17" selected="True" />
+            <SelectField field="Violation Detail - 17" selected="True" />
+            <SelectField field="Violation Memo - 17" selected="True" />
+            <SelectField field="Violation Description - 18" selected="True" />
+            <SelectField field="Violation Points - 18" selected="True" />
+            <SelectField field="Violation Detail - 18" selected="True" />
+            <SelectField field="Violation Memo - 18" selected="True" />
+            <SelectField field="Violation Description - 19" selected="True" />
+            <SelectField field="Violation Points - 19" selected="True" />
+            <SelectField field="Violation Detail - 19" selected="True" />
+            <SelectField field="Violation Memo - 19" selected="True" />
+            <SelectField field="Violation Description - 20" selected="True" />
+            <SelectField field="Violation Points - 20" selected="True" />
+            <SelectField field="Violation Detail - 20" selected="True" />
+            <SelectField field="Violation  Memo - 20" selected="True" />
+            <SelectField field="Violation Description - 21" selected="True" />
+            <SelectField field="Violation Points - 21" selected="True" />
+            <SelectField field="Violation Detail - 21" selected="True" />
+            <SelectField field="Violation Memo - 21" selected="True" />
+            <SelectField field="Violation Description - 22" selected="True" />
+            <SelectField field="Violation Points - 22" selected="True" />
+            <SelectField field="Violation Detail - 22" selected="True" />
+            <SelectField field="Violation Memo - 22" selected="True" />
+            <SelectField field="Violation Description - 23" selected="True" />
+            <SelectField field="Violation Points - 23" selected="True" />
+            <SelectField field="Violation Detail - 23" selected="True" />
+            <SelectField field="Violation Memo - 23" selected="True" />
+            <SelectField field="Violation Description - 24" selected="True" />
+            <SelectField field="Violation Points - 24" selected="True" />
+            <SelectField field="Violation Detail - 24" selected="True" />
+            <SelectField field="Violation Memo - 24" selected="True" />
+            <SelectField field="Violation Description - 25" selected="True" />
+            <SelectField field="Violation Points - 25" selected="True" />
+            <SelectField field="Violation Detail - 25" selected="True" />
+            <SelectField field="Violation Memo - 25" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Name" selected="True" rename="Violation Number" />
+            <SelectField field="Value" selected="True" rename="Violation Description" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Number</Field>
+          <RegExExpression value="[^0-9 ]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="594" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Violation Number"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Name" selected="True" rename="Violation Number" />
+            <SelectField field="Value" selected="True" rename="Violation Point" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="330" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Description - 1" />
+            <Field field="Violation Detail - 1" />
+            <Field field="Violation Memo - 1" />
+            <Field field="Violation Description - 2" />
+            <Field field="Violation Detail - 2" />
+            <Field field="Violation Memo - 2" />
+            <Field field="Violation Description - 3" />
+            <Field field="Violation Detail - 3" />
+            <Field field="Violation Memo - 3" />
+            <Field field="Violation Description - 4" />
+            <Field field="Violation Detail - 4" />
+            <Field field="Violation Memo - 4" />
+            <Field field="Violation Description - 5" />
+            <Field field="Violation Detail - 5" />
+            <Field field="Violation Memo - 5" />
+            <Field field="Violation Description - 6" />
+            <Field field="Violation Detail - 6" />
+            <Field field="Violation Memo - 6" />
+            <Field field="Violation Description - 7" />
+            <Field field="Violation Detail - 7" />
+            <Field field="Violation Memo - 7" />
+            <Field field="Violation Description - 8" />
+            <Field field="Violation Detail - 8" />
+            <Field field="Violation Memo - 8" />
+            <Field field="Violation Description - 9" />
+            <Field field="Violation Detail - 9" />
+            <Field field="Violation Memo - 9" />
+            <Field field="Violation Description - 10" />
+            <Field field="Violation Detail - 10" />
+            <Field field="Violation Memo - 10" />
+            <Field field="Violation Description - 11" />
+            <Field field="Violation Detail - 11" />
+            <Field field="Violation Memo - 11" />
+            <Field field="Violation Description - 12" />
+            <Field field="Violation Detail - 12" />
+            <Field field="Violation Memo - 12" />
+            <Field field="Violation Description - 13" />
+            <Field field="Violation Detail - 13" />
+            <Field field="Violation Memo - 13" />
+            <Field field="Violation Description - 14" />
+            <Field field="Violation Detail - 14" />
+            <Field field="Violation Memo - 14" />
+            <Field field="Violation Description - 15" />
+            <Field field="Violation Detail - 15" />
+            <Field field="Violation Memo - 15" />
+            <Field field="Violation Description - 16" />
+            <Field field="Violation Detail - 16" />
+            <Field field="Violation Memo - 16" />
+            <Field field="Violation Description - 17" />
+            <Field field="Violation Detail - 17" />
+            <Field field="Violation Memo - 17" />
+            <Field field="Violation Description - 18" />
+            <Field field="Violation Detail - 18" />
+            <Field field="Violation Memo - 18" />
+            <Field field="Violation Description - 19" />
+            <Field field="Violation Detail - 19" />
+            <Field field="Violation Memo - 19" />
+            <Field field="Violation Description - 20" />
+            <Field field="Violation Detail - 20" />
+            <Field field="Violation  Memo - 20" />
+            <Field field="Violation Description - 21" />
+            <Field field="Violation Detail - 21" />
+            <Field field="Violation Memo - 21" />
+            <Field field="Violation Description - 22" />
+            <Field field="Violation Detail - 22" />
+            <Field field="Violation Memo - 22" />
+            <Field field="Violation Description - 23" />
+            <Field field="Violation Detail - 23" />
+            <Field field="Violation Memo - 23" />
+            <Field field="Violation Description - 24" />
+            <Field field="Violation Detail - 24" />
+            <Field field="Violation Memo - 24" />
+            <Field field="Violation Description - 25" />
+            <Field field="Violation Detail - 25" />
+            <Field field="Violation Memo - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="False" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="False" />
+            <Field field="Violation Memo - 1" selected="False" />
+            <Field field="Violation Description - 2" selected="False" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="False" />
+            <Field field="Violation Memo - 2" selected="False" />
+            <Field field="Violation Description - 3" selected="False" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="False" />
+            <Field field="Violation Memo - 3" selected="False" />
+            <Field field="Violation Description - 4" selected="False" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="False" />
+            <Field field="Violation Memo - 4" selected="False" />
+            <Field field="Violation Description - 5" selected="False" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="False" />
+            <Field field="Violation Memo - 5" selected="False" />
+            <Field field="Violation Description - 6" selected="False" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="False" />
+            <Field field="Violation Memo - 6" selected="False" />
+            <Field field="Violation Description - 7" selected="False" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="False" />
+            <Field field="Violation Memo - 7" selected="False" />
+            <Field field="Violation Description - 8" selected="False" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="False" />
+            <Field field="Violation Memo - 8" selected="False" />
+            <Field field="Violation Description - 9" selected="False" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="False" />
+            <Field field="Violation Memo - 9" selected="False" />
+            <Field field="Violation Description - 10" selected="False" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="False" />
+            <Field field="Violation Memo - 10" selected="False" />
+            <Field field="Violation Description - 11" selected="False" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="False" />
+            <Field field="Violation Memo - 11" selected="False" />
+            <Field field="Violation Description - 12" selected="False" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="False" />
+            <Field field="Violation Memo - 12" selected="False" />
+            <Field field="Violation Description - 13" selected="False" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="False" />
+            <Field field="Violation Memo - 13" selected="False" />
+            <Field field="Violation Description - 14" selected="False" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="False" />
+            <Field field="Violation Memo - 14" selected="False" />
+            <Field field="Violation Description - 15" selected="False" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="False" />
+            <Field field="Violation Memo - 15" selected="False" />
+            <Field field="Violation Description - 16" selected="False" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="False" />
+            <Field field="Violation Memo - 16" selected="False" />
+            <Field field="Violation Description - 17" selected="False" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="False" />
+            <Field field="Violation Memo - 17" selected="False" />
+            <Field field="Violation Description - 18" selected="False" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="False" />
+            <Field field="Violation Memo - 18" selected="False" />
+            <Field field="Violation Description - 19" selected="False" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="False" />
+            <Field field="Violation Memo - 19" selected="False" />
+            <Field field="Violation Description - 20" selected="False" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="False" />
+            <Field field="Violation  Memo - 20" selected="False" />
+            <Field field="Violation Description - 21" selected="False" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="False" />
+            <Field field="Violation Memo - 21" selected="False" />
+            <Field field="Violation Description - 22" selected="False" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="False" />
+            <Field field="Violation Memo - 22" selected="False" />
+            <Field field="Violation Description - 23" selected="False" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="False" />
+            <Field field="Violation Memo - 23" selected="False" />
+            <Field field="Violation Description - 24" selected="False" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="False" />
+            <Field field="Violation Memo - 24" selected="False" />
+            <Field field="Violation Description - 25" selected="False" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="False" />
+            <Field field="Violation Memo - 25" selected="False" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="510" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Number</Field>
+          <RegExExpression value="[^0-9 ]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="582" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Violation Number"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="330" y="281" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Description - 1" />
+            <Field field="Violation Points - 1" />
+            <Field field="Violation Memo - 1" />
+            <Field field="Violation Description - 2" />
+            <Field field="Violation Points - 2" />
+            <Field field="Violation Memo - 2" />
+            <Field field="Violation Description - 3" />
+            <Field field="Violation Points - 3" />
+            <Field field="Violation Memo - 3" />
+            <Field field="Violation Description - 4" />
+            <Field field="Violation Points - 4" />
+            <Field field="Violation Memo - 4" />
+            <Field field="Violation Description - 5" />
+            <Field field="Violation Points - 5" />
+            <Field field="Violation Memo - 5" />
+            <Field field="Violation Description - 6" />
+            <Field field="Violation Points - 6" />
+            <Field field="Violation Memo - 6" />
+            <Field field="Violation Description - 7" />
+            <Field field="Violation Points - 7" />
+            <Field field="Violation Memo - 7" />
+            <Field field="Violation Description - 8" />
+            <Field field="Violation Points - 8" />
+            <Field field="Violation Memo - 8" />
+            <Field field="Violation Description - 9" />
+            <Field field="Violation Points - 9" />
+            <Field field="Violation Memo - 9" />
+            <Field field="Violation Description - 10" />
+            <Field field="Violation Points - 10" />
+            <Field field="Violation Memo - 10" />
+            <Field field="Violation Description - 11" />
+            <Field field="Violation Points - 11" />
+            <Field field="Violation Memo - 11" />
+            <Field field="Violation Description - 12" />
+            <Field field="Violation Points - 12" />
+            <Field field="Violation Memo - 12" />
+            <Field field="Violation Description - 13" />
+            <Field field="Violation Points - 13" />
+            <Field field="Violation Memo - 13" />
+            <Field field="Violation Description - 14" />
+            <Field field="Violation Points - 14" />
+            <Field field="Violation Memo - 14" />
+            <Field field="Violation Description - 15" />
+            <Field field="Violation Points - 15" />
+            <Field field="Violation Memo - 15" />
+            <Field field="Violation Description - 16" />
+            <Field field="Violation Points - 16" />
+            <Field field="Violation Memo - 16" />
+            <Field field="Violation Description - 17" />
+            <Field field="Violation Points - 17" />
+            <Field field="Violation Memo - 17" />
+            <Field field="Violation Description - 18" />
+            <Field field="Violation Points - 18" />
+            <Field field="Violation Memo - 18" />
+            <Field field="Violation Description - 19" />
+            <Field field="Violation Points - 19" />
+            <Field field="Violation Memo - 19" />
+            <Field field="Violation Description - 20" />
+            <Field field="Violation Points - 20" />
+            <Field field="Violation  Memo - 20" />
+            <Field field="Violation Description - 21" />
+            <Field field="Violation Points - 21" />
+            <Field field="Violation Memo - 21" />
+            <Field field="Violation Description - 22" />
+            <Field field="Violation Points - 22" />
+            <Field field="Violation Memo - 22" />
+            <Field field="Violation Description - 23" />
+            <Field field="Violation Points - 23" />
+            <Field field="Violation Memo - 23" />
+            <Field field="Violation Description - 24" />
+            <Field field="Violation Points - 24" />
+            <Field field="Violation Memo - 24" />
+            <Field field="Violation Description - 25" />
+            <Field field="Violation Points - 25" />
+            <Field field="Violation Memo - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="False" />
+            <Field field="Violation Points - 1" selected="False" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="False" />
+            <Field field="Violation Description - 2" selected="False" />
+            <Field field="Violation Points - 2" selected="False" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="False" />
+            <Field field="Violation Description - 3" selected="False" />
+            <Field field="Violation Points - 3" selected="False" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="False" />
+            <Field field="Violation Description - 4" selected="False" />
+            <Field field="Violation Points - 4" selected="False" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="False" />
+            <Field field="Violation Description - 5" selected="False" />
+            <Field field="Violation Points - 5" selected="False" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="False" />
+            <Field field="Violation Description - 6" selected="False" />
+            <Field field="Violation Points - 6" selected="False" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="False" />
+            <Field field="Violation Description - 7" selected="False" />
+            <Field field="Violation Points - 7" selected="False" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="False" />
+            <Field field="Violation Description - 8" selected="False" />
+            <Field field="Violation Points - 8" selected="False" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="False" />
+            <Field field="Violation Description - 9" selected="False" />
+            <Field field="Violation Points - 9" selected="False" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="False" />
+            <Field field="Violation Description - 10" selected="False" />
+            <Field field="Violation Points - 10" selected="False" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="False" />
+            <Field field="Violation Description - 11" selected="False" />
+            <Field field="Violation Points - 11" selected="False" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="False" />
+            <Field field="Violation Description - 12" selected="False" />
+            <Field field="Violation Points - 12" selected="False" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="False" />
+            <Field field="Violation Description - 13" selected="False" />
+            <Field field="Violation Points - 13" selected="False" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="False" />
+            <Field field="Violation Description - 14" selected="False" />
+            <Field field="Violation Points - 14" selected="False" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="False" />
+            <Field field="Violation Description - 15" selected="False" />
+            <Field field="Violation Points - 15" selected="False" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="False" />
+            <Field field="Violation Description - 16" selected="False" />
+            <Field field="Violation Points - 16" selected="False" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="False" />
+            <Field field="Violation Description - 17" selected="False" />
+            <Field field="Violation Points - 17" selected="False" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="False" />
+            <Field field="Violation Description - 18" selected="False" />
+            <Field field="Violation Points - 18" selected="False" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="False" />
+            <Field field="Violation Description - 19" selected="False" />
+            <Field field="Violation Points - 19" selected="False" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="False" />
+            <Field field="Violation Description - 20" selected="False" />
+            <Field field="Violation Points - 20" selected="False" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="False" />
+            <Field field="Violation Description - 21" selected="False" />
+            <Field field="Violation Points - 21" selected="False" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="False" />
+            <Field field="Violation Description - 22" selected="False" />
+            <Field field="Violation Points - 22" selected="False" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="False" />
+            <Field field="Violation Description - 23" selected="False" />
+            <Field field="Violation Points - 23" selected="False" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="False" />
+            <Field field="Violation Description - 24" selected="False" />
+            <Field field="Violation Points - 24" selected="False" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="False" />
+            <Field field="Violation Description - 25" selected="False" />
+            <Field field="Violation Points - 25" selected="False" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="False" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Name" selected="True" rename="Violation Number" />
+            <SelectField field="Value" selected="True" rename="Violation Detail" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="330" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Description - 1" />
+            <Field field="Violation Points - 1" />
+            <Field field="Violation Detail - 1" />
+            <Field field="Violation Description - 2" />
+            <Field field="Violation Points - 2" />
+            <Field field="Violation Detail - 2" />
+            <Field field="Violation Description - 3" />
+            <Field field="Violation Points - 3" />
+            <Field field="Violation Detail - 3" />
+            <Field field="Violation Description - 4" />
+            <Field field="Violation Points - 4" />
+            <Field field="Violation Detail - 4" />
+            <Field field="Violation Description - 5" />
+            <Field field="Violation Points - 5" />
+            <Field field="Violation Detail - 5" />
+            <Field field="Violation Description - 6" />
+            <Field field="Violation Points - 6" />
+            <Field field="Violation Detail - 6" />
+            <Field field="Violation Description - 7" />
+            <Field field="Violation Points - 7" />
+            <Field field="Violation Detail - 7" />
+            <Field field="Violation Description - 8" />
+            <Field field="Violation Points - 8" />
+            <Field field="Violation Detail - 8" />
+            <Field field="Violation Description - 9" />
+            <Field field="Violation Points - 9" />
+            <Field field="Violation Detail - 9" />
+            <Field field="Violation Description - 10" />
+            <Field field="Violation Points - 10" />
+            <Field field="Violation Detail - 10" />
+            <Field field="Violation Description - 11" />
+            <Field field="Violation Points - 11" />
+            <Field field="Violation Detail - 11" />
+            <Field field="Violation Description - 12" />
+            <Field field="Violation Points - 12" />
+            <Field field="Violation Detail - 12" />
+            <Field field="Violation Description - 13" />
+            <Field field="Violation Points - 13" />
+            <Field field="Violation Detail - 13" />
+            <Field field="Violation Description - 14" />
+            <Field field="Violation Points - 14" />
+            <Field field="Violation Detail - 14" />
+            <Field field="Violation Description - 15" />
+            <Field field="Violation Points - 15" />
+            <Field field="Violation Detail - 15" />
+            <Field field="Violation Description - 16" />
+            <Field field="Violation Points - 16" />
+            <Field field="Violation Detail - 16" />
+            <Field field="Violation Description - 17" />
+            <Field field="Violation Points - 17" />
+            <Field field="Violation Detail - 17" />
+            <Field field="Violation Description - 18" />
+            <Field field="Violation Points - 18" />
+            <Field field="Violation Detail - 18" />
+            <Field field="Violation Description - 19" />
+            <Field field="Violation Points - 19" />
+            <Field field="Violation Detail - 19" />
+            <Field field="Violation Description - 20" />
+            <Field field="Violation Points - 20" />
+            <Field field="Violation Detail - 20" />
+            <Field field="Violation Description - 21" />
+            <Field field="Violation Points - 21" />
+            <Field field="Violation Detail - 21" />
+            <Field field="Violation Description - 22" />
+            <Field field="Violation Points - 22" />
+            <Field field="Violation Detail - 22" />
+            <Field field="Violation Description - 23" />
+            <Field field="Violation Points - 23" />
+            <Field field="Violation Detail - 23" />
+            <Field field="Violation Description - 24" />
+            <Field field="Violation Points - 24" />
+            <Field field="Violation Detail - 24" />
+            <Field field="Violation Description - 25" />
+            <Field field="Violation Points - 25" />
+            <Field field="Violation Detail - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Restaurant Name" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Score" selected="False" />
+            <Field field="Street Number" selected="False" />
+            <Field field="Street Name" selected="False" />
+            <Field field="Street Direction" selected="False" />
+            <Field field="Street Type" selected="False" />
+            <Field field="Street Unit" selected="False" />
+            <Field field="Street Address" selected="False" />
+            <Field field="Zip Code" selected="False" />
+            <Field field="Violation Description - 1" selected="False" />
+            <Field field="Violation Points - 1" selected="False" />
+            <Field field="Violation Detail - 1" selected="False" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="False" />
+            <Field field="Violation Points - 2" selected="False" />
+            <Field field="Violation Detail - 2" selected="False" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="False" />
+            <Field field="Violation Points - 3" selected="False" />
+            <Field field="Violation Detail - 3" selected="False" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="False" />
+            <Field field="Violation Points - 4" selected="False" />
+            <Field field="Violation Detail - 4" selected="False" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="False" />
+            <Field field="Violation Points - 5" selected="False" />
+            <Field field="Violation Detail - 5" selected="False" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="False" />
+            <Field field="Violation Points - 6" selected="False" />
+            <Field field="Violation Detail - 6" selected="False" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="False" />
+            <Field field="Violation Points - 7" selected="False" />
+            <Field field="Violation Detail - 7" selected="False" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="False" />
+            <Field field="Violation Points - 8" selected="False" />
+            <Field field="Violation Detail - 8" selected="False" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="False" />
+            <Field field="Violation Points - 9" selected="False" />
+            <Field field="Violation Detail - 9" selected="False" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="False" />
+            <Field field="Violation Points - 10" selected="False" />
+            <Field field="Violation Detail - 10" selected="False" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="False" />
+            <Field field="Violation Points - 11" selected="False" />
+            <Field field="Violation Detail - 11" selected="False" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="False" />
+            <Field field="Violation Points - 12" selected="False" />
+            <Field field="Violation Detail - 12" selected="False" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="False" />
+            <Field field="Violation Points - 13" selected="False" />
+            <Field field="Violation Detail - 13" selected="False" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="False" />
+            <Field field="Violation Points - 14" selected="False" />
+            <Field field="Violation Detail - 14" selected="False" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="False" />
+            <Field field="Violation Points - 15" selected="False" />
+            <Field field="Violation Detail - 15" selected="False" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="False" />
+            <Field field="Violation Points - 16" selected="False" />
+            <Field field="Violation Detail - 16" selected="False" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="False" />
+            <Field field="Violation Points - 17" selected="False" />
+            <Field field="Violation Detail - 17" selected="False" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="False" />
+            <Field field="Violation Points - 18" selected="False" />
+            <Field field="Violation Detail - 18" selected="False" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="False" />
+            <Field field="Violation Points - 19" selected="False" />
+            <Field field="Violation Detail - 19" selected="False" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="False" />
+            <Field field="Violation Points - 20" selected="False" />
+            <Field field="Violation Detail - 20" selected="False" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="False" />
+            <Field field="Violation Points - 21" selected="False" />
+            <Field field="Violation Detail - 21" selected="False" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="False" />
+            <Field field="Violation Points - 22" selected="False" />
+            <Field field="Violation Detail - 22" selected="False" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="False" />
+            <Field field="Violation Points - 23" selected="False" />
+            <Field field="Violation Detail - 23" selected="False" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="False" />
+            <Field field="Violation Points - 24" selected="False" />
+            <Field field="Violation Detail - 24" selected="False" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="False" />
+            <Field field="Violation Points - 25" selected="False" />
+            <Field field="Violation Detail - 25" selected="False" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="False" />
+            <Field field="Inspection Year" selected="False" />
+            <Field field="Lat Long Location" selected="False" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Name" selected="True" rename="Violation Number" />
+            <SelectField field="Value" selected="True" rename="Violation Memo" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="522" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Number</Field>
+          <RegExExpression value="[^0-9 ]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="594" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Violation Number"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="522" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Number</Field>
+          <RegExExpression value="[^0-9 ]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="594" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Violation Number"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Violation Number" selected="True" type="Int16" size="2" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Violation Number" selected="True" type="Int16" size="2" />
+            <SelectField field="Violation Point" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Number" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Violation Number" selected="True" type="Int16" size="2" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="822" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Number" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Description" selected="True" input="Left_" />
+                <SelectField field="Right_Restaurant Name" selected="False" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="False" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="False" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="False" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="False" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="False" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="False" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="False" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Violation Number" selected="False" rename="Right_Violation Number" input="Right_" />
+                <SelectField field="Right_Violation Point" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="918" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Number" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Description" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Point" selected="True" input="Left_" />
+                <SelectField field="Right_Restaurant Name" selected="False" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="False" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="False" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="False" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="False" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="False" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="False" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="False" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Violation Number" selected="False" rename="Right_Violation Number" input="Right_" />
+                <SelectField field="Right_Violation Detail" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1014" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Number" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Description" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Point" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Detail" selected="True" input="Left_" />
+                <SelectField field="Right_Restaurant Name" selected="False" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="False" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="False" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="False" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="False" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="False" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="False" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="False" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Violation Number" selected="False" rename="Right_Violation Number" input="Right_" />
+                <SelectField field="Right_Violation Memo" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1134" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Violation Description</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-19 17:47:23</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-02-19 17:47:23</StartDate>
+              <EndDate>2023-02-19 17:47:23</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Violation Description])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1242" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Restaurant Name" order="Ascending" />
+            <Field field="Inspection Date" order="Ascending" />
+            <Field field="Violation Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant Name - Ascending
+Inspection Date - Ascending
+Violation Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1338" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Description</Field>
+          <RegExExpression value="[*]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Description</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1458" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Description</Field>
+          <RegExExpression value="[^0-9]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Description</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1458" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violation Description</Field>
+          <RegExExpression value="[0-9]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violation Description</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings>
+        <Position x="1566" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Violation Description"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1566" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Number" selected="True" />
+            <SelectField field="Violation Description" selected="True" rename="Violation Code" />
+            <SelectField field="Violation Point" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1686" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Number" selected="True" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="Violation Point" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1854" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Number" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Code" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Point" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Detail" selected="True" input="Left_" />
+                <SelectField field="Left_Violation Memo" selected="True" input="Left_" />
+                <SelectField field="Right_Restaurant Name" selected="False" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="False" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="False" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="False" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="False" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="False" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="False" rename="Right_Street Direction" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="False" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_Violation Number" selected="False" rename="Right_Violation Number" input="Right_" />
+                <SelectField field="Right_Violation Description" selected="True" input="Right_" />
+                <SelectField field="Right_Violation Point" selected="False" rename="Right_Violation Point" input="Right_" />
+                <SelectField field="Right_Violation Detail" selected="False" rename="Right_Violation Detail" input="Right_" />
+                <SelectField field="Right_Violation Memo" selected="False" rename="Right_Violation Memo" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1938" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Restaurant Name" order="Ascending" />
+            <Field field="Inspection Date" order="Ascending" />
+            <Field field="Violation Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant Name - Ascending
+Inspection Date - Ascending
+Violation Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2010" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Number" selected="False" />
+            <SelectField field="Violation Code" selected="True" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="Violation Point" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1686" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Restaurant Name" order="Ascending" />
+            <Field field="Inspection Date" order="Ascending" />
+            <Field field="Violation Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant Name - Ascending
+Inspection Date - Ascending
+Violation Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Restaurant Name" order="Ascending" />
+            <Field field="Inspection Date" order="Ascending" />
+            <Field field="Violation Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant Name - Ascending
+Inspection Date - Ascending
+Violation Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings>
+        <Position x="2214" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Restaurant Name=True,Inspection Type=True,Inspection Date=True,Inspection Score=True,Street Number=True,Street Name=True,Street Direction=True,Zip Code=True,Violation Code=True,Violation Description=True,Violation Point=True,Violation Detail=True,Violation Memo=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="2238" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2310" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\AKHILM~1\AppData\Local\Temp\Engine_29020_9808980cbac2d9478338d119839fff85_\Engine_29020_6fa7ca3c96ce1446b3ee11c2ca64c056~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2334" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\AKHILM~1\AppData\Local\Temp\Engine_29020_9808980cbac2d9478338d119839fff85_\Engine_29020_b3950ff0c3c0474d9fa7d8a853e09aa1~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2322" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\AKHILM~1\AppData\Local\Temp\Engine_29020_9808980cbac2d9478338d119839fff85_\Engine_29020_b2637d5d7a310c49b267058b6de170cc~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2322" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\AKHILM~1\AppData\Local\Temp\Engine_29020_9808980cbac2d9478338d119839fff85_\Engine_29020_1509791601da164587b12525cdfc7fce~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings>
+        <Position x="2106" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Restaurant Name","Inspection Type","Inspection Date","Inspection Score","Street Number","Street Name","Street Direction","Zip Code","Violation Code","Violation Description","Violation Point","Violation Detail","Violation Memo"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2225" y="281" width="155" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 76</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2250" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:localhost_dallas_stg|||Stg_dallas</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:localhost_dallas_stg
+Query=Stg_dallas</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output26" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output26" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="74" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="59" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="59" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Reports" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Interactive" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output26" />
+      <Destination ToolID="68" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output26" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output26" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas Food Inspection</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ea0624c0-d93b-48f1-a516-302e1c53843d" />
+      <Telemetry>
+        <PreviousWorkflowId value="677db969-06c7-4d89-bf29-681e0b2e2596" />
+        <OriginWorkflowId value="677db969-06c7-4d89-bf29-681e0b2e2596" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

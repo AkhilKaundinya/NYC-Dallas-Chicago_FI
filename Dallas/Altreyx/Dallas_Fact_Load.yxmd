@@ -1,0 +1,1281 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:SQL_Server|||select * 
+from prestg_dallas_food_inspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQL_Server
+Query=select * 
+from prestg_dalla...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Date" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="Date" />
+            <Field name="Inspection Score" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+            <Field name="FileName" size="254" source="File: aka:SQL_Server|||select * &#xA;from prestg_dallas_food_inspection" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(DATETIMEFORMAT([Inspection Date],'%Y%m%d'))" field="InspectionDateSK" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToNumber(DATETIMEFORMAT([Inspection Date],'%m'))" field="Inspection_Month" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToNumber(DATETIMEFORMAT([Inspection Date],'%Y'))" field="Inspection_Year" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>InspectionDateSK = ToNumber(DATETIMEFORMAT([Inspection Date],'%Y%m%d'))
+Inspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="InspectionDateSK" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Number" selected="False" />
+            <SelectField field="Violation Code" selected="False" />
+            <SelectField field="Violation Description" selected="False" />
+            <SelectField field="Violation Point" selected="False" />
+            <SelectField field="Violation Detail" selected="False" />
+            <SelectField field="Violation Memo" selected="False" />
+            <SelectField field="Inspection_Month" selected="True" />
+            <SelectField field="Inspection_Year" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Violation Description - 1" selected="False" />
+            <SelectField field="Violation Points - 1" selected="False" />
+            <SelectField field="Violation Detail - 1" selected="False" />
+            <SelectField field="Violation Memo - 1" selected="False" />
+            <SelectField field="Violation Description - 2" selected="False" />
+            <SelectField field="Violation Points - 2" selected="False" />
+            <SelectField field="Violation Detail - 2" selected="False" />
+            <SelectField field="Violation Memo - 2" selected="False" />
+            <SelectField field="Violation Description - 3" selected="False" />
+            <SelectField field="Violation Points - 3" selected="False" />
+            <SelectField field="Violation Detail - 3" selected="False" />
+            <SelectField field="Violation Memo - 3" selected="False" />
+            <SelectField field="Violation Description - 4" selected="False" />
+            <SelectField field="Violation Points - 4" selected="False" />
+            <SelectField field="Violation Detail - 4" selected="False" />
+            <SelectField field="Violation Memo - 4" selected="False" />
+            <SelectField field="Violation Description - 5" selected="False" />
+            <SelectField field="Violation Points - 5" selected="False" />
+            <SelectField field="Violation Detail - 5" selected="False" />
+            <SelectField field="Violation Memo - 5" selected="False" />
+            <SelectField field="Violation Description - 6" selected="False" />
+            <SelectField field="Violation Points - 6" selected="False" />
+            <SelectField field="Violation Detail - 6" selected="False" />
+            <SelectField field="Violation Memo - 6" selected="False" />
+            <SelectField field="Violation Description - 7" selected="False" />
+            <SelectField field="Violation Points - 7" selected="False" />
+            <SelectField field="Violation Detail - 7" selected="False" />
+            <SelectField field="Violation Memo - 7" selected="False" />
+            <SelectField field="Violation Description - 8" selected="False" />
+            <SelectField field="Violation Points - 8" selected="False" />
+            <SelectField field="Violation Detail - 8" selected="False" />
+            <SelectField field="Violation Memo - 8" selected="False" />
+            <SelectField field="Violation Description - 9" selected="False" />
+            <SelectField field="Violation Points - 9" selected="False" />
+            <SelectField field="Violation Detail - 9" selected="False" />
+            <SelectField field="Violation Memo - 9" selected="False" />
+            <SelectField field="Violation Description - 10" selected="False" />
+            <SelectField field="Violation Points - 10" selected="False" />
+            <SelectField field="Violation Detail - 10" selected="False" />
+            <SelectField field="Violation Memo - 10" selected="False" />
+            <SelectField field="Violation Description - 11" selected="False" />
+            <SelectField field="Violation Points - 11" selected="False" />
+            <SelectField field="Violation Detail - 11" selected="False" />
+            <SelectField field="Violation Memo - 11" selected="False" />
+            <SelectField field="Violation Description - 12" selected="False" />
+            <SelectField field="Violation Points - 12" selected="False" />
+            <SelectField field="Violation Detail - 12" selected="False" />
+            <SelectField field="Violation Memo - 12" selected="False" />
+            <SelectField field="Violation Description - 13" selected="False" />
+            <SelectField field="Violation Points - 13" selected="False" />
+            <SelectField field="Violation Detail - 13" selected="False" />
+            <SelectField field="Violation Memo - 13" selected="False" />
+            <SelectField field="Violation Description - 14" selected="False" />
+            <SelectField field="Violation Points - 14" selected="False" />
+            <SelectField field="Violation Detail - 14" selected="False" />
+            <SelectField field="Violation Memo - 14" selected="False" />
+            <SelectField field="Violation Description - 15" selected="False" />
+            <SelectField field="Violation Points - 15" selected="False" />
+            <SelectField field="Violation Detail - 15" selected="False" />
+            <SelectField field="Violation Memo - 15" selected="False" />
+            <SelectField field="Violation Description - 16" selected="False" />
+            <SelectField field="Violation Points - 16" selected="False" />
+            <SelectField field="Violation Detail - 16" selected="False" />
+            <SelectField field="Violation Memo - 16" selected="False" />
+            <SelectField field="Violation Description - 17" selected="False" />
+            <SelectField field="Violation Points - 17" selected="False" />
+            <SelectField field="Violation Detail - 17" selected="False" />
+            <SelectField field="Violation Memo - 17" selected="False" />
+            <SelectField field="Violation Description - 18" selected="False" />
+            <SelectField field="Violation Points - 18" selected="False" />
+            <SelectField field="Violation Detail - 18" selected="False" />
+            <SelectField field="Violation Memo - 18" selected="False" />
+            <SelectField field="Violation Description - 19" selected="False" />
+            <SelectField field="Violation Points - 19" selected="False" />
+            <SelectField field="Violation Detail - 19" selected="False" />
+            <SelectField field="Violation Memo - 19" selected="False" />
+            <SelectField field="Violation Description - 20" selected="False" />
+            <SelectField field="Violation Points - 20" selected="False" />
+            <SelectField field="Violation Detail - 20" selected="False" />
+            <SelectField field="Violation  Memo - 20" selected="False" />
+            <SelectField field="Violation Description - 21" selected="False" />
+            <SelectField field="Violation Points - 21" selected="False" />
+            <SelectField field="Violation Detail - 21" selected="False" />
+            <SelectField field="Violation Memo - 21" selected="False" />
+            <SelectField field="Violation Description - 22" selected="False" />
+            <SelectField field="Violation Points - 22" selected="False" />
+            <SelectField field="Violation Detail - 22" selected="False" />
+            <SelectField field="Violation Memo - 22" selected="False" />
+            <SelectField field="Violation Description - 23" selected="False" />
+            <SelectField field="Violation Points - 23" selected="False" />
+            <SelectField field="Violation Detail - 23" selected="False" />
+            <SelectField field="Violation Memo - 23" selected="False" />
+            <SelectField field="Violation Description - 24" selected="False" />
+            <SelectField field="Violation Points - 24" selected="False" />
+            <SelectField field="Violation Detail - 24" selected="False" />
+            <SelectField field="Violation Memo - 24" selected="False" />
+            <SelectField field="Violation Description - 25" selected="False" />
+            <SelectField field="Violation Points - 25" selected="False" />
+            <SelectField field="Violation Detail - 25" selected="False" />
+            <SelectField field="Violation Memo - 25" selected="False" />
+            <SelectField field="Inspection Month" selected="False" />
+            <SelectField field="Inspection Year" selected="False" />
+            <SelectField field="FileName" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="330" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:SQL_Server_Dallas_Warehouse|||select * 
+from Dim_Dallas_InspectionType</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQL_Server_Dallas_Warehouse
+Query=select * 
+from Dim_Dallas_I...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionTypeSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_InspectionType" type="Int32" />
+            <Field name="Inspection_Type" size="9" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_InspectionType" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_InspectionType" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_InspectionType" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_InspectionType" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="714" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection Type" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Inspection_Type" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Street Type" selected="True" input="Left_" />
+                <SelectField field="Left_Street Unit" selected="True" input="Left_" />
+                <SelectField field="Left_Street Address" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_Lat Long Location" selected="True" input="Left_" />
+                <SelectField field="Left_RestaurantSK" selected="True" input="Left_" />
+                <SelectField field="Right_InspectionTypeSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="498" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:SQL_Server_Dallas_Warehouse|||select * 
+from Dim_Dallas_Geo</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQL_Server_Dallas_Warehouse
+Query=select * 
+from Dim_Dallas_G...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GeoSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="Int32" />
+            <Field name="Street_Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="Int32" />
+            <Field name="Street_Name" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="V_String" />
+            <Field name="Street_Direction" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="String" />
+            <Field name="Street_Type" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="String" />
+            <Field name="Street_Unit" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="String" />
+            <Field name="Street_Address" size="36" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="V_String" />
+            <Field name="Zip_Code" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Geo" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Street_Number" />
+            <Field field="Street_Name" />
+            <Field field="Street_Direction" />
+            <Field field="Street_Type" />
+            <Field field="Street_Unit" />
+            <Field field="Street_Address" />
+            <Field field="Zip_Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="False" input="Left_" />
+                <SelectField field="Left_Street Type" selected="False" input="Left_" />
+                <SelectField field="Left_Street Unit" selected="False" input="Left_" />
+                <SelectField field="Left_Street Address" selected="False" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="False" input="Left_" />
+                <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_Lat Long Location" selected="True" input="Left_" />
+                <SelectField field="Left_RestaurantSK" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionTypeSK" selected="True" input="Left_" />
+                <SelectField field="Right_GeoSK" selected="True" input="Right_" />
+                <SelectField field="Right_Street_Number" selected="False" input="Right_" size="21" />
+                <SelectField field="Right_Street_Name" selected="False" input="Right_" type="V_WString" size="25" />
+                <SelectField field="Right_Street_Direction" selected="False" input="Right_" type="V_WString" size="1" />
+                <SelectField field="Right_Street_Type" selected="False" input="Right_" type="V_WString" size="4" />
+                <SelectField field="Right_Street_Unit" selected="False" input="Right_" type="V_WString" size="5" />
+                <SelectField field="Right_Street_Address" selected="False" input="Right_" type="V_WString" size="36" />
+                <SelectField field="Right_Zip_Code" selected="False" input="Right_" type="V_WString" size="10" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_Street Number" selected="False" input="Right_" />
+                <SelectField field="Right_Street Name" selected="False" input="Right_" />
+                <SelectField field="Right_Street Direction" selected="False" input="Right_" />
+                <SelectField field="Right_Street Type" selected="False" input="Right_" />
+                <SelectField field="Right_Street Unit" selected="False" input="Right_" />
+                <SelectField field="Right_Street Address" selected="False" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1242" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionSK" selected="True" />
+            <SelectField field="InspectionDateSK" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection_Month" selected="True" />
+            <SelectField field="Inspection_Year" selected="True" />
+            <SelectField field="RestaurantSK" selected="True" />
+            <SelectField field="GeoSK" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="InspectionTypeSK" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="Restaurant Name" selected="False" />
+            <SelectField field="Street Number" selected="False" />
+            <SelectField field="Street Name" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="618" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Street_Number" selected="True" type="V_WString" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="1026" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date To:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:SQL_Server_Dallas_Warehouse|||select * 
+from Dim_Dallas_Restaurant</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQL_Server_Dallas_Warehouse
+Query=select * 
+from Dim_Dallas_R...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RestaurantSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="Int32" />
+            <Field name="Restaurant_Name" size="65" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="V_WString" />
+            <Field name="Street_Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="Int32" />
+            <Field name="Street_Name" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="V_String" />
+            <Field name="Street_Direction" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="String" />
+            <Field name="Street_Type" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="String" />
+            <Field name="Street_Unit" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="String" />
+            <Field name="Street_Address" size="36" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="V_String" />
+            <Field name="Zip_Code" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=dallas_warehouse;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from Dim_Dallas_Restaurant" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Street_Number" selected="True" type="V_WString" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="558" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Restaurant Name" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Restaurant_Name" />
+            <Field field="Street_Number" />
+            <Field field="Street_Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Restaurant Name" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Score" selected="True" input="Left_" />
+                <SelectField field="Left_Street Number" selected="True" input="Left_" />
+                <SelectField field="Left_Street Name" selected="True" input="Left_" />
+                <SelectField field="Left_Street Direction" selected="True" input="Left_" />
+                <SelectField field="Left_Street Type" selected="True" input="Left_" />
+                <SelectField field="Left_Street Unit" selected="True" input="Left_" />
+                <SelectField field="Left_Street Address" selected="True" input="Left_" />
+                <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Month" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Year" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_Lat Long Location" selected="True" input="Left_" />
+                <SelectField field="Right_RestaurantSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1062" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:SQL_Server|||select * 
+from stg_dallas_food_inspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQL_Server
+Query=select * 
+from stg_dallas_f...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Inspection Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="Date" />
+            <Field name="Inspection Score" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="Int16" />
+            <Field name="Violation Code" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Description" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Point" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Detail" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Violation Memo" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dallas_Food_Inspection;SERVER=NITANT\SQLEXPRESS;Trusted_Connection=yes|||select * &#xA;from stg_dallas_food_inspection" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1230" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Restaurant Name" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Inspection Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Restaurant Name" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Inspection Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Restaurant Name" selected="True" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="True" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Inspection Score" selected="True" rename="Right_Inspection Score" input="Right_" />
+                <SelectField field="Right_Street Number" selected="True" rename="Right_Street Number" input="Right_" />
+                <SelectField field="Right_Street Name" selected="True" rename="Right_Street Name" input="Right_" />
+                <SelectField field="Right_Lat Long Location" selected="True" rename="Right_Lat Long Location" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1158" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Date" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1350" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionViolationsSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1458" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionViolationsSK" selected="True" />
+            <SelectField field="InspectionSK" selected="True" />
+            <SelectField field="Restaurant Name" selected="False" />
+            <SelectField field="Inspection Date" selected="False" />
+            <SelectField field="InspectionDateSK" selected="False" />
+            <SelectField field="Inspection Score" selected="False" />
+            <SelectField field="Street Number" selected="False" />
+            <SelectField field="Street Name" selected="False" />
+            <SelectField field="Inspection_Month" selected="False" />
+            <SelectField field="Inspection_Year" selected="False" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="Lat Long Location" selected="False" />
+            <SelectField field="RestaurantSK" selected="False" />
+            <SelectField field="InspectionTypeSK" selected="False" />
+            <SelectField field="GeoSK" selected="False" />
+            <SelectField field="Inspection_Date" selected="False" />
+            <SelectField field="Right_Restaurant Name" selected="False" />
+            <SelectField field="Inspection Type" selected="False" />
+            <SelectField field="Right_Inspection Date" selected="False" />
+            <SelectField field="Right_Inspection Score" selected="False" />
+            <SelectField field="Right_Street Number" selected="False" />
+            <SelectField field="Right_Street Name" selected="False" />
+            <SelectField field="Street Direction" selected="False" />
+            <SelectField field="Street Type" selected="False" />
+            <SelectField field="Street Unit" selected="False" />
+            <SelectField field="Street Address" selected="False" />
+            <SelectField field="Zip Code" selected="False" />
+            <SelectField field="Violation Number" selected="True" />
+            <SelectField field="Violation Point" selected="True" />
+            <SelectField field="Violation Detail" selected="True" />
+            <SelectField field="Violation Description" selected="True" />
+            <SelectField field="Violation Memo" selected="True" />
+            <SelectField field="Violation Code" selected="False" />
+            <SelectField field="Right_Lat Long Location" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1577" y="497" width="155" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 42</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1602" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:SQL_Server_Dallas_Warehouse|||dbo.FCT_Dallas_FoodInspection_Violations</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="InspectionViolationsSK" Dest="InspectionViolationsSK" />
+                    <Field Source="InspectionSK" Dest="InspectionSK" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                    <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="Violation Number" Dest="Violation_No" />
+                    <Field Source="Violation Point" Dest="Violation_Points" />
+                    <Field Source="Violation Detail" Dest="Violation_Detail" />
+                    <Field Source="Violation Description" Dest="Violation_Description" />
+                    <Field Source="Violation Memo" Dest="Violation_Memo" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:SQL_Server_Dallas_Warehouse
+Query=dbo.FCT_Dallas_FoodInspectio...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="210" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FCT_Dallas_FoodInspection</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1746" y="498" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FCT_Dallas_FoodInspection_Violations</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1373" y="197" width="155" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 37</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1398" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:SQL_Server_Dallas_Warehouse|||dbo.FCT_Dallas_FoodInspection</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="InspectionSK" Dest="InspectionSK" />
+                    <Field Source="InspectionDateSK" Dest="InspectionDateSK" />
+                    <Field Source="Inspection Date" Dest="InspectionDate" />
+                    <Field Source="Inspection_Month" Dest="Inspection_Month" />
+                    <Field Source="Inspection_Year" Dest="Inspection_Year" />
+                    <Field Source="RestaurantSK" Dest="RestaurantSK" />
+                    <Field Source="GeoSK" Dest="GeoSK" />
+                    <Field Source="Inspection_Date" Dest="Inspection_Date" />
+                    <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                    <Field Source="Inspection Score" Dest="Inspection_Score" />
+                    <Field Source="Lat Long Location" Dest="Lat_Long_Location" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                    <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:SQL_Server_Dallas_Warehouse
+Query=dbo.FCT_Dallas_FoodInspectio...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="24" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="24" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Warehouse_Fact_Load</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0fcb95b4-91d2-4a1d-a6aa-4dbca3110fc3" />
+      <Telemetry>
+        <PreviousWorkflowId value="09c43429-b35a-41bd-9a41-9c788cabe6b7" />
+        <OriginWorkflowId value="09c43429-b35a-41bd-9a41-9c788cabe6b7" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
